@@ -1,0 +1,36 @@
+
+ 
+.flower {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: pink;
+  position: relative;
+}
+
+.flower::before,
+.flower::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: pink;
+}
+
+.flower::before {
+  top: -20px;
+  left: 20px;
+}
+
+.flower::after {
+  top: -20px;
+  right: 20px;
+}
+
+ 
+
+<!---
+Jaelmorales/Jaelmorales is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
